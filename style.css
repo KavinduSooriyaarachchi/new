@@ -1,0 +1,68 @@
+body{
+background:
+linear-gradient(to right,purple,pastal pink);
+
+}
+.main-container{
+background-color: aqua;
+padding: 5rem;
+flex-direction:column;
+align-items: center;
+justify-content: center;
+width: 60%;
+margin: 10rem;
+text-align: center;
+border-radius: 0.5rem;
+}
+
+
+.btn-section{
+  display:flex;
+  flex-direction:row;
+  
+  text-align: center;
+  justify-content: center;
+  
+}
+
+.dice-section{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+.btn1{
+  padding: 2rem;
+}
+
+
+.btn2{
+  padding: 2rem;
+}
+
+button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.p1{
+  padding-right: 6rem;
+}
+
+.p2{
+  padding-left:2rem;
+}
+
+img{
+  width: 100px;
+}
+
+
+
+button{
+  padding: 15px 25px 15px 25px;
+  border-radius: 15px;
+  border: none;
+  
+}
